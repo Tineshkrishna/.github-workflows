@@ -3,10 +3,10 @@ name: Sync Discovered API with APIConnect
 on: [pull_request, workflow_dispatch, push]
 
 env:
-  API_HOST: <host-name>
+  API_HOST: <apps.67e5e21a0fe7abc24ece31e7.am1.techzone.ibm.com>
   PLATFORM_API_PREFIX: <platform-api>
-  PROVIDER_ORG: <porg-name>
-  API_FILES: <file/files name>
+  PROVIDER_ORG: <cp4i-demo-org>
+  API_FILES: <discover api.yml>
 
 jobs:
   run-discovery:
